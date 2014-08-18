@@ -1,0 +1,79 @@
+---
+post_title: Plugin WP Affiliates Tagger da 2Aces
+author: sadmin2a
+post_excerpt: ""
+layout: page
+permalink: >
+  https://www.2aces.com.br/plugins-wordpress-da-2aces/plugin-wp-affiliates-tagger-da-2aces/
+dsq_thread_id:
+  - "2593980459"
+---
+(english version is found <a href="http://www.2aces.com.br/wordpress-plugins/wp-affiliates-tagger-plugin/">here</a>)
+
+Um  <a href="http://www.2aces.com.br/plugins-wordpress-da-2aces/">plugin Wordpress da 2Aces</a> simples e gratuito para tornar mais fácil incluir links com tags de programas de afiliados num blog Wordpress, com suporte a várias lojas, serviços e redes de afiliados no Brasil, Estados Unidos e por todo o mundo<span style="line-height: 1.5em;">:</span>
+<ul>
+	<li>Afiliados Network (BR): Americanas.com, ShopTime, SouBarato, Submarino, Submarino Viagens</li>
+	<li>Apple / PHG (BR, Europa, América do Sul and EUA)</li>
+	<li>Amazon (EUA)</li>
+	<li>Dreamhost (EUA)</li>
+	<li>Livraria Cultura (EUA)</li>
+	<li>ManageWP (Global)</li>
+	<li>Media Temple (Global)</li>
+	<li>WP Engine (Global).</li>
+</ul>
+<strong>A versão mais atual usa <a href="https://codex.wordpress.org/Shortcode">shortcodes</a> para criar os links com as tags, as versões futuras permitirão a inserção usando os botões do editor de texto do Wordpress (TinyMCE)</strong>
+
+Se este plugi te ajuar, consider tuitar sobre a @2AcesConteudo ou dar uma boa pontuação no repositório do Wordpress quando publicarmos por lá, ou, melhor ainda, linkando nosso site no seu blog: <a title="2Aces Conteúdo e Estratégia" href="http://www.2aces.com.br">www.2aces.com.br</a>
+<h3>Installation  - WP Affiliates Tagger plugin by 2Aces</h3>
+<ol>
+	<li><strong>Baixe o arquivo <a href="https://github.com/2aces/aa-affiliates-tagger/archive/master.zip">aa-affiliates-tagger.zip file neste link</a></strong> ou clone-o  <a href="https://github.com/2aces/aa-affiliates-tagger">no GitHub</a>, descompacte e faça o upload da pasta <code>/aa-affiliates-tagger/</code> para o diretório <code>/wp-content/plugins/</code> de seu blog.</li>
+	<li>Ative o plugin através do menu Plugins no Wordpress.</li>
+	<li>Copie as IDs dos programas de afiliados nos campos apropriados em configurações</li>
+	<li>Se você não ainda não participa de nenhum <em>programa de afiliados</em>, clique no links no painel de configurações para acessar o site dos programas e se cadastrar.</li>
+	<li>Quando criar o link para uma loja ou serviço, use um shortcode semelhante a este:
+<code><code>[[product merchant="merchantname" productlink="productlink"]texto do link[/product]]</code></code></li>
+	<li>Você deve usar minúsculas e não pode usar espaços, acentos ou caracteres especiais nos parâmetros:
+(e.g. <code>[[product merchant="amazon" productlink="http://www.amazon.com/Web-Marketing-All---One-Dummies/dp/1118243773/"]Web Marketing na Amazon[/product]]</code> )</li>
+	<li>Para as lojas e serviços Amazon, Americanas, Apple, Cultura, Shoptime, SouBarato, Submarino e Submarino Viagens, você deve o link da página de produto ou no parâmetro <code>productlink</code>:
+(e.g. <code>[[product merchant="amazon" productlink="http://www.amazon.com/Web-Marketing-All---One-Dummies/dp/1118243773/"]Web Marketing na Amazon[/product]]</code> )</li>
+	<li>Se você estiver linkando para serviços de hospedagem e gerenciamento como Dreamhost, Media Temple, Manage WP e WP Engine, você não precisa do link de produto e o parâmetro <code>productlink</code> será ignorado. (e.g. <code>[[product merchant="wpengine"]WP Engine evita dores de cabeça![/product]]</code> )</li>
+</ol>
+<h3>Perguntas Frequentes - Notas</h3>
+A versão mais atual usa <a href="https://codex.wordpress.org/Shortcode">shortcodes</a> para criar os links com as tags. Basicamente, significa que você precisa colocar o texto que você quer com link em pseudo-tags usando chaves <code>[]</code>, como neste exemplo:
+
+<code>[[product merchant="wpengine"]WP Engine evita dores de cabeça![/product]]</code>
+
+Note que dentro da tag de abertura há uma parâmetro indicando qual loja ou serviço está linkando. Alguns deles demanda também o parâmetro productlink.
+<h3>Histórico de Versões (Changelog) - Plugin WP Affiliates Tagger da 2Aces</h3>
+= 0.2 =
+admin settings page
+= 0.1.4 =
+translation ready
+= 0.1.3 =
+added Dreamhost, Manage WP, Media Temple and WP Engine support
+= 0.1.2 =
+added Amazon Associates support and sign up links
+= 0.1.1 =
+added Americanas, Shoptime, Submarino Viagens and SouBarato support
+= 0.1 =
+Proof of concept using shortcodes to Livraria Cultura and Submarino merchants
+<h3>Planos (Roadmap) -</h3>
+<h3>Plugin WP Affiliates Tagger da 2Aces</h3>
+= 0.3 =
+TinyMCE insertion and Wordpress Plugins best pratices revision
+= 0.3.1 =
+automatic link detection and tagging
+= 0.3.2 =
+verification and handling for already tagged links
+= 0.4 =
+Performance and visual improvements
+= 0.5 =
+New feature: products widgets
+= 0.6 =
+Help and documentation improvements
+= 0.7 =
+Initial version
+= 0.8 =
+Tag/Category based suggested products widget
+= 0.9 =
+Automatic tagging for images and galleries
